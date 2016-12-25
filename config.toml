@@ -1,0 +1,5 @@
+theme = "wave"
+baseurl = ""
+languageCode = "en-us"
+title = "wave - totally refreshing"
+MetaDataFormat = "toml"
