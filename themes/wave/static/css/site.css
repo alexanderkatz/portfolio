@@ -35,8 +35,68 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+a {
+  text-decoration: none; }
+
 .inner {
   margin: 50px; }
+
+html {
+  font-size: 18px; }
+
+h1 {
+  font-family: robotobold;
+  font-size: 48px;
+  line-height: 72px; }
+
+h2 {
+  font-family: robotoregular;
+  font-size: 42px;
+  line-height: 63px; }
+
+h3 {
+  font-family: robotoregular;
+  font-size: 24px; }
+
+h4 {
+  font-family: robotoregular; }
+
+h5 {
+  font-family: robotoregular; }
+
+h6 {
+  font-family: robotoregular;
+  font-size: .75rem; }
+
+p {
+  font-family: robotoregular;
+  font-size: 1rem;
+  line-height: 1.5rem; }
+
+a {
+  font-family: robotobold;
+  color: #0F758C; }
+
+@font-face {
+  font-family: 'robotoregular';
+  src: url("../fonts/Roboto-Regular-webfont.eot");
+  src: url("../fonts/Roboto-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Regular-webfont.woff") format("woff"), url("../fonts/Roboto-Regular-webfont.ttf") format("truetype"), url("../fonts/Roboto-Regular-webfont.svg#robotoregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'robotobold';
+  src: url("../fonts/Roboto-Bold-webfont.eot");
+  src: url("../fonts/Roboto-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Bold-webfont.woff") format("woff"), url("../fonts/Roboto-Bold-webfont.ttf") format("truetype"), url("../fonts/Roboto-Bold-webfont.svg#robotobold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'robotoitalic';
+  src: url("../fonts/Roboto-Italic-webfont.eot");
+  src: url("../fonts/Roboto-Italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Italic-webfont.woff") format("woff"), url("../fonts/Roboto-Italic-webfont.ttf") format("truetype"), url("../fonts/Roboto-Italic-webfont.svg#robotoitalic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 
 .push-right {
   margin-left: auto !important; }
@@ -46,15 +106,12 @@ header {
   width: 90%;
   height: 73px;
   display: flex; }
-
-#logo {
-  background: url("../img/logo.svg") no-repeat;
-  width: 73px;
-  height: 64px; }
-
-.header_link {
-  align-self: flex-end;
-  margin-left: 50px; }
-
-.header_link:hover {
-  text-decoration: underline; }
+  header #logo {
+    background: url("../img/logo.svg") no-repeat;
+    width: 73px;
+    height: 64px; }
+  header .header_link {
+    align-self: flex-end;
+    margin-left: 50px; }
+  header .header_link:hover {
+    text-decoration: underline; }

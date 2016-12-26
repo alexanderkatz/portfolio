@@ -1,3 +1,49 @@
-.inner{
-  margin:50px; 
+$lagoon: #0F758C;
+
+.inner {
+    margin: 50px;
+}
+
+html { font-size: 18px; }
+
+
+h1 {
+    font-family: robotobold;
+    font-size: 48px;
+    line-height: 72px;
+
+}
+
+h2 {
+    font-family: robotoregular;
+    font-size: 42px;
+    line-height: 63px;
+
+}
+
+h3 {
+    font-family: robotoregular;
+    font-size: 24px;
+}
+
+h4 {
+    font-family: robotoregular;
+}
+h5 {
+    font-family: robotoregular;
+}
+h6 {
+    font-family: robotoregular;
+    font-size: .75rem;
+}
+
+p {
+    font-family: robotoregular;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+a {
+    font-family: robotobold;
+    color:$lagoon;
 }
