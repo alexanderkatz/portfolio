@@ -39,23 +39,25 @@ a {
   text-decoration: none; }
 
 .inner {
-  margin: 50px; }
+  max-width: 900px;
+  margin-left: 5%;
+  margin-right: 5%; }
 
 html {
-  font-size: 18px; }
+  font-size: 18px;
+  font-family: robotoregular;
+  line-height: 1.5rem; }
 
 h1 {
-  font-family: robotobold;
-  font-size: 48px;
-  line-height: 72px; }
+  font-family: firasansbold;
+  font-size: 48px; }
 
 h2 {
-  font-family: robotoregular;
-  font-size: 42px;
-  line-height: 63px; }
+  font-family: firasanssemibold;
+  font-size: 42px; }
 
 h3 {
-  font-family: robotoregular;
+  font-family: firasansmedium;
   font-size: 24px; }
 
 h4 {
@@ -76,6 +78,39 @@ p {
 a {
   font-family: robotobold;
   color: #0F758C; }
+
+@font-face {
+  font-family: 'firamonobold';
+  src: url("../fonts/FiraMono-Bold.otf");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'firamonoregular';
+  src: url("../fonts/FiraMono-Regular.otf");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'firasansbold';
+  src: url("../fonts/FiraSans-Bold.eot");
+  src: url("../fonts/FiraSans-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/FiraSans-Bold.woff") format("woff"), url("../fonts/FiraSans-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'firasanssemibold';
+  src: url("../fonts/FiraSans-SemiBold.eot");
+  src: url("../fonts/FiraSans-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/FiraSans-SemiBold.woff") format("woff"), url("../fonts/FiraSans-SemiBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'firasansmedium';
+  src: url("../fonts/FiraSans-Medium.eot");
+  src: url("../fonts/FiraSans-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/FiraSans-Medium.woff") format("woff"), url("../fonts/FiraSans-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
 
 @font-face {
   font-family: 'robotoregular';
@@ -115,3 +150,9 @@ header {
     margin-left: 50px; }
   header .header_link:hover {
     text-decoration: underline; }
+
+.highlight {
+  margin: 15px 0px;
+  padding: 1rem 0px;
+  overflow: auto;
+  font-family: firamonoregular; }

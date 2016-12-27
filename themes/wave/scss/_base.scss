@@ -1,28 +1,36 @@
 $lagoon: #0F758C;
 
 .inner {
-    margin: 50px;
+  max-width: 900px;
+  margin-left: 5%;
+  margin-right: 5%;
+  // margin: 50px auto;
+  // width: 90%;
+  // max-width: 900px;
+  // padding: 0 15px;
 }
 
-html { font-size: 18px; }
+html {
+  font-size: 18px;
+  font-family: robotoregular;
+  line-height: 1.5rem;
+ }
 
 
 h1 {
-    font-family: robotobold;
+    font-family: firasansbold;
     font-size: 48px;
-    line-height: 72px;
-
+    // line-height: 72px;
 }
 
 h2 {
-    font-family: robotoregular;
+    font-family: firasanssemibold;
     font-size: 42px;
-    line-height: 63px;
-
+    // line-height: 63px;
 }
 
 h3 {
-    font-family: robotoregular;
+    font-family: firasansmedium;
     font-size: 24px;
 }
 
