@@ -1,5 +1,5 @@
 +++
-date = "2016-12-25T15:56:20-06:00"
+date = "2014-05-04"
 title = "Building a Custom HTML5 Audio Player With Javascript"
 
 +++

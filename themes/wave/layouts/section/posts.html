@@ -1,8 +1,12 @@
 {{ partial "header.html" . }}
 
-  <h1>Posts</h1>
-  {{- range first 10 .Data.Pages }}
-    <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
-  {{- end }}
-
+<h1>Posts</h1>
+<section class="post-list">
+    {{ range .Data.Pages }}
+      <section class="post">
+        <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+        <h6 class="date">{{ .Date.Format "Mon, Jan 2, 2006" }}</h6>
+      </section>
+    {{- end }}
+</section>
 {{ partial "footer.html" . }}
