@@ -19,6 +19,8 @@ Here is the code for the audio element that we will be controlling.
 </audio>
 {{< /highlight >}}
 
+<!--more-->
+
 ## PLAY BUTTON
 First we will use HTML to create the play button.We will make two CSS classes, play and pause.
 

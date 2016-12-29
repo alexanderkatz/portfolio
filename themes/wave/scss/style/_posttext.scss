@@ -4,7 +4,14 @@
         font-size: 14px;
         font-family: firasansbold;
     }
-    h2{margin-top: 2rem;}
-    h3{margin-top: 1rem;}
-    p{margin-bottom: .75rem;}
+    ul,ol{
+      line-height: 1.5rem;
+      margin-left: 1.5rem;
+    }
+    ol{
+      list-style: decimal;
+    }
+    ul{
+      list-style: disc;
+    }
 }
