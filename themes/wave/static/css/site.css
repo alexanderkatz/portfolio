@@ -193,6 +193,9 @@ header {
 .post ul {
   list-style: disc; }
 
+.portfolio .portfolio_item {
+  border: solid 1px orange; }
+
 .post .date {
   margin-top: 14px;
   margin-bottom: 30px; }
@@ -211,6 +214,15 @@ header {
 
 .post-list .post {
   margin-bottom: 60px; }
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  .portfolio .portfolio_item {
+    width: 270px;
+    height: 200px;
+    margin-top: 40px; }
 
 footer {
   height: 100px; }

@@ -1,8 +1,17 @@
 {{ partial "header.html" . }}
 
   <h1>Portfolio</h1>
-  {{- range first 10 .Data.Pages }}
-    <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
-  {{- end }}
+
+    <section class="portfolio">
+      {{- range .Data.Pages }}
+      <section class="portfolio_item" style="background:url(/img/{{ .Params.assets }}/thumb.png)">
+
+
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </section>
+      {{- end }}
+    </section>
+
+
 
   {{ partial "footer.html" . }}
