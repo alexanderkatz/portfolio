@@ -1,18 +1,12 @@
 {{ partial "header.html" . }}
 
-  <p>Hugo says hello!</p>
-
-  <h2>Articles</h2>
-  {{- range first 10 .Data.Pages -}}
-    {{- if eq .Type "posts"}}
-      <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
-    {{- end -}}
-  {{- end }}
-  <h2>Pages</h2>
-  {{- range first 10 .Data.Pages -}}
-    {{- if eq .Type "page" }}
-      <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
-    {{- end -}}
-  {{- end }}
+<section id="blurb">
+<h1>
+Hi. I’m Alex.</br>
+I am a programmer,</br>
+designer,</br>
+and dancer.
+</h1>
+</section>
 
 {{ partial "footer.html" . }}

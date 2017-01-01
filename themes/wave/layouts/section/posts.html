@@ -12,3 +12,16 @@
     {{- end }}
 </section>
 {{ partial "footer.html" . }}
+
+<!-- <h2>Articles</h2>
+{{- range first 10 .Data.Pages -}}
+  {{- if eq .Type "posts"}}
+    <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+  {{- end -}}
+{{- end }}
+<h2>Pages</h2>
+{{- range first 10 .Data.Pages -}}
+  {{- if eq .Type "page" }}
+    <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+  {{- end -}}
+{{- end }} --> 

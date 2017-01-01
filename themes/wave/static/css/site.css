@@ -162,6 +162,12 @@ header {
   display: block;
   width: 100%; }
 
+#blurb {
+  font-family: firamonobold;
+  line-height: 64px;
+  font-size: 64px;
+  margin-top: 150px; }
+
 .post .date {
   color: #9B9B9B;
   font-size: 14px;
