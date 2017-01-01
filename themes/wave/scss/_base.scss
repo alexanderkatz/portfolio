@@ -1,5 +1,6 @@
 $lagoon: #0F758C;
-
+$electric: #01FFC7;
+$lightelectric: rgba(2, 255, 198, .5);
 .inner {
   max-width: 900px;
   margin-left: 5%;
@@ -54,5 +55,10 @@ p {
 
 a {
     font-family: robotobold;
-    color:$lagoon;
+    border-bottom: 3px solid $electric;
+    color: inherit;
+    transition: background 0.1s cubic-bezier(.33,.66,.66,1);
+    &:hover{
+      background: $electric;
+    }
 }
