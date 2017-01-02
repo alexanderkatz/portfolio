@@ -17,6 +17,8 @@ Lorem ipsum dolor sit amet, stet doming salutandi mei ut, dolor albucius maluiss
 
 Eos no feugait facilisi sapientem, his id tibique placerat, antiopam conceptam mei no. Suavitate imperdiet at duo, te his tota probo prima, quod senserit nec ea. Munere imperdiet assentior vel ut. Clita altera expetendis no quo.
 
+<!--more-->
+
 Populo commodo saperet ex pro, epicurei dignissim no nec. Vix at quod commodo mnesarchum, in nam verear verterem. Impetus sanctus voluptua ad per. Nec id movet choro omnium. Sed at quod viderer tractatos, cum et liber scripta cotidieque.
 
 Ut facer intellegat est, at sed mazim animal vivendo. Mei in summo scripta menandri. Veniam constituam appellantur ne sed. Ut cum elitr prodesset consetetur, eu mea velit labore mandamus, suas vitae honestatis pro te.

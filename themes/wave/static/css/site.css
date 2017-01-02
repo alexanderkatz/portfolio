@@ -193,6 +193,13 @@ header {
 .post ul {
   list-style: disc; }
 
+.post-list h2 a {
+  line-height: 50px; }
+
+.readmore {
+  font-size: 16px;
+  font-family: firasansmedium; }
+
 .portfolio .portfolio_item {
   border: solid 1px orange; }
 
@@ -225,4 +232,4 @@ header {
     margin-top: 40px; }
 
 footer {
-  height: 100px; }
+  margin-top: 100px; }
